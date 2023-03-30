@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Activities</title>
+    <style>
+        body{
+            background: #333;
+            color: #fff;
+            font-family: arial;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 10%;
+        }
+        .main h1{
+            font-size: 50px;
+        }
+        .main .text{
+            font-size: 40px;
+        }
+        .activities{
+            display: flex;
+            flex-direction: column;
+        }
+        .activities a{
+            color: #fff;
+            margin-top: 15px;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        .activities a:hover{
+            background: cyan;
+            border-radius: 3px;
+            color: #000;
+        }
+        @media only screen and (max-width: 480px) {
+            .main h1{
+                text-align: center;
+                font-size: 30px;
+            }
+            .main .text{
+            font-size: 25px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Justin Rivera Pimentel</h1>
+        <div class="text">Web Programming</div>
+        <div class="activities">
+            <a href="./actiivities/act.html">Activity 1</a>
+            <a href="#">Activity 2</a>
+            <a href="#">Activity 3</a>
+            <a href="#">Activity 4</a>
+            <a href="#">Activity 5</a>
+            <a href="#">Activity 6</a>
+            <a href="#">Activity 7</a>
+        </div>
+    </div>
+</body>
+</html>
